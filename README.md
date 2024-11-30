@@ -80,8 +80,4 @@ if(cast != null) {
         System.out.println("HIT BLOCK");
     }
 }
-
-if(cast != null && cast.typeOfHit == MovingObjectPosition.MovingObjectType.ENTITY) {
-    System.out.println("HIT ENTITY");
-}
 ```

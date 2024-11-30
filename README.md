@@ -9,7 +9,7 @@ final Animation animation = new Animation();
 
 @EventListener
 public void onRender2D(Render2DEvent event) {
-    this.animation.animate(100, 0.03)
+    this.animation.animate(100, 0.03F);
 
     Gui.drawRect(0, 0, animation.getValue(), 100, -1);
 }

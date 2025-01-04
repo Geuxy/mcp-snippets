@@ -77,7 +77,6 @@ public class RaycastUtil {
         return null;
     }
 
-    // TODO: Find way to ignore blocks to allow through walls
     private static MovingObjectPosition rayTrace(double range, float yaw, float pitch) {
         EntityPlayerSP player = Minecraft.getMinecraft().thePlayer;
 

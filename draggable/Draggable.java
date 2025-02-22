@@ -83,7 +83,7 @@ public abstract class Draggable {
         return mouseX >= renderX && mouseX <= renderX + renderWidth && mouseY >= renderY && mouseY <= renderY + renderHeight;
     }
 
-    public enum ScreenSection {
+    enum ScreenSection {
 
         START,
         MIDDLE,
